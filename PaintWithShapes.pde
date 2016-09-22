@@ -7,11 +7,7 @@
 // Right click draws triangles.
 
 void setup() {
-  //size(1920, 1080);
   size(displayWidth, displayHeight);
-  //noStroke();
-  //colorMode(RGB, height, height, height);
-  //rectMode(CENTER);
   background(0);
   
   // Start in Center
@@ -29,18 +25,7 @@ void draw() {
   stroke(random(255),random(255),random(255));
   fill(random(255),random(255),random(255));
   
-  // Draw Shape
-  //ellipse(mouseX,mouseY,d/random(4),d/random(5));
-  //rect(mouseX-((d*5)/2),mouseY-((d*5)/2),d*5,d*5);
-  
-/*  if (mousePressed) {
-    rect(mouseX-((d*5)/2),mouseY-((d*5)/2),d*5,d*5);
-  } else {
-    triangle(mouseX-random(30),mouseY+random(30),mouseX+random(30),mouseY+random(30),mouseX-random(30),mouseY-random(30));
-  }*/
-
-
-
+  // Draw Shapes
   if (mouseButton == LEFT) {
     ellipse(mouseX,mouseY,d/random(4),d/random(5));
   } else if (mouseButton == RIGHT) {
