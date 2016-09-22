@@ -41,7 +41,7 @@ void draw() {
   // Taking out the if keyPressed line and the close bracket will start recording frames.
   if ( keyPressed ) {
     if ((key == 's') || (key == 'S')){
-      saveFrame("images/madcolors-####.png");
+      saveFrame("images/PaintWithShapes-####.png");
     }
   }
 
