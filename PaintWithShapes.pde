@@ -2,6 +2,8 @@
 // By Michael McMahon
 // Based on the example sketch from mobile.
 
+// EPILEPSY WARNING: A very small portion of the population has a condition which may cause them to experience epileptic seizures or have momentary loss of consciousness when viewing certain kids of flashing lights or patterns that are commonly present in our daily environment. These persons may experience seizures while watching processing sketches.  People who have not had any previous seizures may nonetheless have an undetected epileptic condition.  If you experience any of the following symptoms: dizziness, altered vision, eye twitching, involuntary movements, loss of awareness disorientation, or convulsions, DISCONTINUE USE IMMEDIATELY and consult your physician.
+
 // The mouse without clicking draws squares.
 // Left click draws circles.
 // Right click draws triangles.
