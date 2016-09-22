@@ -3,13 +3,13 @@ Processing is a great introductory programming language that can make generative
 
 These are scripts I have made or modified using Processing.  More to come!
 
-# <a href="https://github.com/TechnologyClassroom/Processing/blob/master/JitterTriangles.pde">JitterTriangles
+# <a href="https://github.com/TechnologyClassroom/Processing/blob/master/JitterTriangles.pde">JitterTriangles</a>
 
-![Screenshot](https://github.com/TechnologyClassroom/Processing/blob/master/Images/JitterTriangles-29822.png?raw=true "Screenshot")</a>
+![Screenshot](https://github.com/TechnologyClassroom/Processing/blob/master/Images/JitterTriangles-29822.png?raw=true "Screenshot")
 
 Generative art using randomly moving triangles of random sizes.
 
-# PaintWithShapes
+# <a href="https://github.com/TechnologyClassroom/Processing/blob/master/PaintWithShapes.pde">PaintWithShapes</a>
 
 ![Screenshot](https://github.com/TechnologyClassroom/Processing/blob/master/Images/PaintWithShapes.png?raw=true "Screenshot")
 
