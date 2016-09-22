@@ -5,6 +5,6 @@ These are scripts I have made or modified using Processing.  More to come!
 
 # PaintWithShapes
 
-<img src"https://raw.githubusercontent.com/TechnologyClassroom/Processing/master/Images/PaintWithShapes.png" alt="Example can be found in the images folder"/>
+![Screenshot](https://github.com/TechnologyClassroom/Processing/blob/master/Images/PaintWithShapes.png?raw=true "Screenshot")
 
 Draw with squares, ellipses, and triangles.  Hold 's' to save images.
