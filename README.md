@@ -15,7 +15,7 @@ Generative art using randomly moving triangles of random sizes.
 
 ![Screenshot](https://github.com/TechnologyClassroom/Processing/blob/master/Images/JitterRotate-0531.png?raw=true "Screenshot")
 
-An experiment with semantic errors.
+JitterRotate is an experiment with semantic errors.  Generative art using randomly moving triangles of random sizes.
 
 # <a href="https://github.com/TechnologyClassroom/Processing/blob/master/PaintWithShapes.pde">PaintWithShapes</a>
 
