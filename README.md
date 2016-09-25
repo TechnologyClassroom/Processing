@@ -21,4 +21,4 @@ JitterRotate is an experiment with semantic errors.  Generative art using random
 
 ![Screenshot](https://github.com/TechnologyClassroom/Processing/blob/master/Images/PaintWithShapes.png?raw=true "Screenshot")
 
-Draw with squares, ellipses, and triangles.  Hold 's' to save images.
+Draw with squares, ellipses, and triangles.  Shapes have random fill color, stroke color, stroke width, and size.  WARNING: May cause epileptic seizures.  Hold 's' to save images.
