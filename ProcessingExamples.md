@@ -1,4 +1,4 @@
-This is an incomplete list of places to find Processing Examples:
+This is an incomplete list of places to find Processing examples:
 
 Java Examples
 * http://www.openprocessing.org/
@@ -36,6 +36,7 @@ Python Examples
 * https://github.com/jdf/processing.py/tree/master/examples.py
 * http://xor.lonnen.com/2010/12/12/processingpy.html
 * https://docs.google.com/presentation/d/1iMMqsOLRnThZW2G06Od7ucn3Ksm8KufAGegpqE90dr0/present?slide=id.i148
+* https://gitlab.com/yogeshc/processing.py/tree/master
 
 JS Examples
 * http://ejohn.org/apps/processing.js/examples/basic/
