@@ -5,7 +5,7 @@
 // Left click draws circles.
 
 void setup() {
-  size(displayWidth, displayHeight);
+  //size(displayWidth, displayHeight);
   fullScreen();
   background(0);
   
@@ -19,7 +19,7 @@ void draw() {
   
   // Color
   strokeWeight(5);
-  stroke(random(255,255,255);
+  stroke(255,255,255);
   fill(255,255,255);
   
   // Draw Shapes
