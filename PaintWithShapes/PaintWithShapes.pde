@@ -9,7 +9,8 @@
 // Right click draws triangles.
 
 void setup() {
-  size(displayWidth, displayHeight);
+  //size(displayWidth, displayHeight);
+  fullScreen();
   background(0);
   
   // Start in Center
