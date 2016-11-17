@@ -28,3 +28,25 @@ JitterRotate is an experiment with semantic errors.  Generative art using random
 Draw with squares, ellipses, and triangles.  Shapes have random fill color, stroke color, stroke width, and size.  WARNING: Contains flashing lights.  Hold 's' to save images.
 
 To learn more, check out the <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#resources">Resources section</a> of my Raspberry Pi Worshop for links and books about Processing.  Also, check out the <a href="https://github.com/TechnologyClassroom/Processing/blob/master/ProcessingExamples.md">examples page</a>.
+
+
+# Installing Processing on 64 bit GNU/Linux
+
+To install processing on the 64 bit GNU/Linux, run these two commands:
+
+```
+wget https://raw.githubusercontent.com/TechnologyClassroom/Processing/master/install-linux64.sh
+
+sudo sh install-linux64.sh
+```
+
+
+# Installing Processing on 32 bit GNU/Linux
+
+To install processing on the 32 bit GNU/Linux, run these two commands:
+
+```
+wget https://raw.githubusercontent.com/TechnologyClassroom/Processing/master/install-linux32.sh
+
+sudo sh install-linux32.sh
+```
