@@ -5,6 +5,42 @@ Processing is a great introductory programming language that can make generative
 
 Processing is a programming language about making visual art.  Processing is geared towards making interactive drawings with code.  It works on Android, iOS, GNU/Linux, Mac, and Windows.  Drawings can be generated from mouse movements, music frequencies, GPIO inputs, or web apis.  Processing is one of the easiest languages to learn.  Processing uses java syntax by default.  You can also use javascript live on webpages through p5.js.  Python syntax can also be used if enabled.
 
+
+# Installing Processing on GNU/Linux
+
+Installing Processing is very simple on most operating systems, yet people have trouble with the instructions for installing on GNU/Linux distributions.  Here are scripts and instructions to easily install Processing on GNU/Linux systems.
+
+<h2>64 bit GNU/Linux</h2>
+
+Open a terminal, run these two commands:
+
+```
+wget https://raw.githubusercontent.com/TechnologyClassroom/Processing/master/install-linux64.sh
+
+sudo sh install-linux64.sh
+```
+
+<h2>32 bit GNU/Linux</h2>
+
+Open a terminal, run these two commands:
+
+```
+wget https://raw.githubusercontent.com/TechnologyClassroom/Processing/master/install-linux32.sh
+
+sudo sh install-linux32.sh
+```
+
+<h2>Raspberry Pi and ARM based GNU/Linux</h2>
+
+Open a terminal, run these two commands:
+
+```
+wget https://processing.org/download/install-arm.sh
+
+sudo sh install-arm.sh
+```
+
+
 These are scripts I have made or modified using Processing:
 
 # <a href="https://github.com/TechnologyClassroom/Processing/blob/master/JitterRotate/JitterRotate.pde">JitterTriangles</a>
@@ -28,25 +64,3 @@ JitterRotate is an experiment with semantic errors.  Generative art using random
 Draw with squares, ellipses, and triangles.  Shapes have random fill color, stroke color, stroke width, and size.  WARNING: Contains flashing lights.  Hold 's' to save images.
 
 To learn more, check out the <a href="https://github.com/TechnologyClassroom/RaspberryPiProgrammingWorkshop#resources">Resources section</a> of my Raspberry Pi Worshop for links and books about Processing.  Also, check out the <a href="https://github.com/TechnologyClassroom/Processing/blob/master/ProcessingExamples.md">examples page</a>.
-
-
-# Installing Processing on 64 bit GNU/Linux
-
-To install processing on the 64 bit GNU/Linux, run these two commands:
-
-```
-wget https://raw.githubusercontent.com/TechnologyClassroom/Processing/master/install-linux64.sh
-
-sudo sh install-linux64.sh
-```
-
-
-# Installing Processing on 32 bit GNU/Linux
-
-To install processing on the 32 bit GNU/Linux, run these two commands:
-
-```
-wget https://raw.githubusercontent.com/TechnologyClassroom/Processing/master/install-linux32.sh
-
-sudo sh install-linux32.sh
-```
