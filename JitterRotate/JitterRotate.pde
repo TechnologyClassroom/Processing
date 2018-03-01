@@ -6,6 +6,7 @@
 // by Reas & Fry. O'Reilly / Make 2010
 
 //https://processing.org/examples/rotate.html
+
 float jitter;
 float angle;
 
@@ -15,7 +16,7 @@ void setup() {
   fullScreen();
 
   smooth();
-  background(random(0,255), random(0,255),random(0,255),random(0,255));
+  background(random(0, 255), random(0, 255),random(0, 255),random(0, 255));
   
   for (int i = 0; i < bugs.length; i++) {
 
@@ -42,7 +43,7 @@ void draw() {
       };
     angle = angle + jitter;
     float c = cos(angle);
-    translate(width/2, height/2);
+    translate(width / 2, height / 2);
     rotate(c);
 
     bugs[i].move();
@@ -52,7 +53,8 @@ void draw() {
 
   // While the s key is pressed, it will record the images as numbered frames.
   // Speed takes a large hit.
-  // Taking out the if keyPressed line and the close bracket will start recording frames.
+  // Taking out the if keyPressed line and the close bracket will start
+  // recording frames.
   if ( keyPressed ) {
     if ((key == 's') || (key == 'S')){
       saveFrame("images/JitterRotate-####.png");
@@ -62,12 +64,10 @@ void draw() {
 
 }
 
- 
 
 class JitterBug {
   
   float x;
-
   float y;
 
   int diameter;
@@ -76,12 +76,11 @@ class JitterBug {
   
   JitterBug (float tempX, float tempY, int tempDiameter) {
 
-  fill(random(0,255), random(0,100),random(0,255),random(0,255));
+  fill(random(0, 255), random(0, 100), random(0, 255), random(0, 255));
 
-  stroke(random(0,255), random(0,255),random(0,255),random(0,255));
+  stroke(random(0, 255), random(0, 255), random(0, 255), random(0, 255));
 
     x = tempX;
-
     y = tempY;
 
     diameter = tempDiameter;
@@ -91,11 +90,9 @@ class JitterBug {
   void move() {
     //rotate(random(0,PI/2));
     //x += random(-speed, speed);
-
     //y += random(-speed, speed);
 
     x += random(-speed, speed);
-
     y += random(-speed, speed);
     
   }

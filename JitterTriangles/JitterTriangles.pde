@@ -26,12 +26,14 @@ void draw() {
   
   // While the s key is pressed, it will record the images as numbered frames.
   // Speed takes a large hit.
-  // Taking out the if keyPressed line and the close bracket will start recording frames.
+  // Taking out the if keyPressed line and the close bracket will start
+  // recording frames.
   if ( keyPressed ) {
     if ((key == 's') || (key == 'S')){
       saveFrame("images/madcolors-####.png");
     }
   }
+
 }
 
 class JitterBug {
@@ -53,9 +55,8 @@ class JitterBug {
   }
 
   void display() {
-    triangle(x + diameter, y + diameter, x, y + (2 * diameter), x-diameter, y+diameter);
-  } 
-
+    triangle(x + diameter, y + diameter, x, y + (2 * diameter), x - diameter, y + diameter);
+  }
 
   int number = 0;
   void draw(){}
